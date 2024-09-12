@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Header FIles">
+      <UniqueIdentifier>{52506351-2ff7-443b-aab9-0e7773a9275c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4c7b8e80-2b62-484c-8fa5-1670d9f8da4f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <CudaCompile Include="AESkernel.cu">
+      <Filter>Source Files</Filter>
+    </CudaCompile>
+    <CudaCompile Include="AESCore.cu">
+      <Filter>Source Files</Filter>
+    </CudaCompile>
+    <CudaCompile Include="AESFile.cu">
+      <Filter>Source Files</Filter>
+    </CudaCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AESCore.cuh">
+      <Filter>Header FIles</Filter>
+    </ClInclude>
+    <ClInclude Include="AESFile.cuh">
+      <Filter>Header FIles</Filter>
+    </ClInclude>
+    <ClInclude Include="AES.cuh">
+      <Filter>Header FIles</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
